@@ -5,8 +5,7 @@ pipeline {
 
     stages {
       stage('Scm Checkout') {
-        steps {
-          git branch: 'main', url: 'https://github.com/mdrajibkhan/docker-java-jenkinsfile-registry.git'
+        steps {git branch: 'main', url: 'https://github.com/asm-shad/docker-java-jenkinsfile-registry.git'
             }
             }
       stage('Build App') {
